@@ -1,5 +1,0 @@
-#!/usr/bin/env python3
-
-from cipher_files import cipher_files
-
-cipher_files.main()
