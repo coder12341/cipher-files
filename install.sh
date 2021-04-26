@@ -11,7 +11,7 @@ function install() {
       {
       cd ~/.local/share/ && mkdir cipher_files && cd cipher_files
       wget https://github.com/coder12341/cipher-files/releases/download/1.0.0/cipher-files_linux_amd64 -O cipher_files
-      chmod +x qr-generator
+      chmod +x cipher_files
       } &> /dev/null
       echo 'export PATH=~/.local/share/cipher_files:$PATH' >> ~/.bashrc
       exit
