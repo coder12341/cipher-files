@@ -25,4 +25,10 @@ pyinstaller -F cipher_files.py
 
 **Binaries are only available for Linux! If you are not running Linux, you should build the app by yourself.**
 
-[Cipher Files (Linux_amd64)](https://github.com/coder12341/cipher-files/releases/download/1.0.0/cipher-files_linux_amd64)
+#### [Cipher Files (Linux_amd64)](https://github.com/coder12341/cipher-files/releases/download/1.0.0/cipher-files_linux_amd64)
+
+#### Terminal Installation
+```bash
+wget https://raw.githubusercontent.com/coder12341/cipher-files/main/install.sh && chmod +x install.sh && sudo ./install.sh && rm install.sh && echo Installed!
+```
+
