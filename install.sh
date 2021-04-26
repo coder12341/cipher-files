@@ -13,7 +13,7 @@ function install() {
       wget https://github.com/coder12341/cipher-files/releases/download/1.0.0/cipher-files_linux_amd64 -O cipher_files
       chmod +x qr-generator
       } &> /dev/null
-      echo 'export PATH=~/.local/share/qr-tools:$PATH' >> ~/.bashrc
+      echo 'export PATH=~/.local/share/cipher_files:$PATH' >> ~/.bashrc
       exit
   fi
     
