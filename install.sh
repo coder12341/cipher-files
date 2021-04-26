@@ -40,7 +40,6 @@ function uninstall() {
   
 }
 
-
 printf "(0)Install\n(1)Uninstall\n:"
 read mode
 
