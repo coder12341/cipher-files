@@ -1,3 +1,10 @@
+[![](https://img.shields.io/badge/version-2.0-green)](https://github.com/coder12341/cipher-files/releases/tag/1.0.0)
+![](https://img.shields.io/badge/license-GPLv3-blue)
+![](https://img.shields.io/badge/language-Python3-red)
+![](https://img.shields.io/badge/platform-Linux-lightgrey)
+[![cipher-files](https://snapcraft.io/cipher-files/badge.svg)](https://snapcraft.io/cipher-files)
+[![cipher-files](https://snapcraft.io/cipher-files/trending.svg?name=0)](https://snapcraft.io/cipher-files)
+
 <p align='center'>
 <img src=icon.png height="60">
 <h1 align='center'>Cipher Files</h1>
@@ -32,3 +39,9 @@ pyinstaller -F cipher_files.py
 wget https://raw.githubusercontent.com/coder12341/cipher-files/main/install.sh && chmod +x install.sh && sudo ./install.sh && rm install.sh && echo Installed!
 ```
 
+#### Extra
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/cipher-files)
+
+
+### File Hashes (SHA256)
+You can find the file hashes in the [releases section](https://github.com/coder12341/cipher-files/releases/tag/1.0.0)
