@@ -6,7 +6,7 @@
 [![cipher-files](https://snapcraft.io/cipher-files/trending.svg?name=0)](https://snapcraft.io/cipher-files)
 
 <p align='center'>
-<img src=icon.png height="60">
+<img src=icon.png height="100">
 <h1 align='center'>Cipher Files</h1>
 </p>
 <p align='center'>
