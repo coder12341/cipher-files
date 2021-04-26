@@ -3,11 +3,6 @@ import tkinter
 from  tkinter import filedialog
 
 class cipher_files():
-    def __init():
-        window=tkinter.Tk()
-        window.withdraw()
-        print("1)Encrypt\n2)Decrypt\n3)Write key\n4)Load Key\nq)Exit\n")
-        
 
     def encrypt(filename, key):
         f=Fernet(key)
@@ -49,6 +44,9 @@ class cipher_files():
 
     
     def main():
+        window=tkinter.Tk()
+        window.withdraw()
+        print("1)Encrypt\n2)Decrypt\n3)Write key\n4)Load Key\nq)Exit\n")
         while True:
             fun=input(":")
             if fun=='1':
@@ -71,19 +69,18 @@ class cipher_files():
 
             elif fun=='3':
                 try:
-                    write_key()
+                    cipher_files.write_key()
                 except:
                     print('Error!\n')
 
             elif fun=='4':
                 try:
-                    load_key()
+                    cipher_files.load_key()
                 except:
                     print('Error!\n')
 
             elif fun=='q':
-                exit()
+                break
 
         else:
             print("Invalid command\n")
-
