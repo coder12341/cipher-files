@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/version-2.0-green)](https://github.com/coder12341/cipher-files/releases/tag/1.0.0)
+[![](https://img.shields.io/badge/version-1.0-green)](https://github.com/coder12341/cipher-files/releases/tag/1.0.0)
 ![](https://img.shields.io/badge/license-GPLv3-blue)
 ![](https://img.shields.io/badge/language-Python3-red)
 ![](https://img.shields.io/badge/platform-Linux-lightgrey)
