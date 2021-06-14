@@ -22,7 +22,7 @@ Create your own builds.
 ``` bash
 #Before pasting the commands make sure that you have python3 and pip3 installed!
 git clone https://github.com/coder12341/qr-tools.git #Download the source code
-cd qr-tools
+cd cipher-files
 pip3 install cryptography #Install the required library
 pip3 install pyinstaller
 pyinstaller -F cipher_files.py
